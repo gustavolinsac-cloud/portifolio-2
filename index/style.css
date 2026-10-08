@@ -40,6 +40,7 @@ nav> a {
     padding: 10px;
     text-decoration: none;
     color: black;
+
 }
 
 nav> a:hover{
@@ -53,6 +54,8 @@ main{
     min-width: 320px;
     margin-bottom: 20px;
     border: 1px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
 }
 
 article{
@@ -61,12 +64,16 @@ article{
   font-style: normal;
 line-height: 2em;
 text-align: justify;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.27);
 }
+
+
 
 article p {
     
     padding: 20px;
     text-indent: 30px;
+    
 }
 
 article h1{
@@ -75,6 +82,8 @@ article h1{
     text-align: center;
     
 }
+
+
 
 article h2{
     text-align: center;
@@ -90,11 +99,11 @@ ol{
  
 padding: 30px;
 list-style-position: inside;
+
 }
 
-ul{
-    padding: 30px;
-    list-style-position: inside;
+ol>li>a{
+    text-decoration: none;
 }
 
 body{
